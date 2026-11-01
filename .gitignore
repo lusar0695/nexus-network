@@ -1,0 +1,12 @@
+out/
+cache/
+broadcast/
+lib/
+*.bin
+*.abi
+.env
+.env.*
+!.env.example
+.DS_Store
+.vscode/
+.idea/
