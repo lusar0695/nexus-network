@@ -71,4 +71,4 @@ Public source repository: https://github.com/lusar0695/nexus-network
 - Add an indexer and developer dashboard.
 - Complete an independent security review before any mainnet use.
 
-See `PROJECT_STATUS.md` for current status and `SECURITY.md` for reporting guidance.
+See `docs/testnet-deployment.md` for the testnet-only deployment guide. See `PROJECT_STATUS.md` for current status and `SECURITY.md` for reporting guidance.
