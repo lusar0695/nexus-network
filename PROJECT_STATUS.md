@@ -12,7 +12,8 @@
 - Architecture and trust assumptions.
 - Draft 16-week grant plan and budget.
 - GitHub Actions workflow for Solidity build and tests.
-- Deployment script and environment example.
+- Testnet-only deployment script and environment example.
+- BNB Smart Chain Testnet deployment guide.
 - Security and contribution guidance.
 - Mainnet readiness checklist: GitHub Issue #1.
 
