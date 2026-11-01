@@ -1,9 +1,9 @@
 # NEXUS Project Status
 
-**Founder model:** solo founder (as provided by founder)
-**Funding path:** grants (as selected by founder)
-**Initial chain:** BNB Smart Chain Testnet
-**Current stage:** source code committed to GitHub; not compiled, tested, audited, or deployed.
+**Founder model:** solo founder (as provided by founder)  
+**Funding path:** grants (as selected by founder)  
+**Initial chain:** BNB Smart Chain Testnet  
+**Current stage:** initial smart-contract prototype committed; automated build and unit tests passed in GitHub Actions.
 
 ## Published
 - ERC-20 escrow contract source.
@@ -14,12 +14,22 @@
 - GitHub Actions workflow for Solidity build and tests.
 - Deployment script and environment example.
 - Security and contribution guidance.
+- Mainnet readiness checklist: GitHub Issue #1.
+
+## Verified
+- GitHub Actions run #8 completed successfully.
+- Foundry dependency installation succeeded.
+- `forge build` succeeded.
+- `forge test -vvv` succeeded.
+- CI run: https://github.com/lusar0695/nexus-network/actions/runs/41296656301
+
+This verifies the current source against the included automated build and unit tests only. It is not a security audit or proof of production readiness.
 
 ## Not yet completed
-- CI run and green build/test result.
 - Independent security audit.
 - Testnet deployment and verified contract address.
 - Working AI agent clients and SDK.
+- Expanded fuzz, invariant, and integration tests.
 - Grant submission or award.
 
 ## Founder inputs still required
